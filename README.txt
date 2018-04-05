@@ -1,6 +1,11 @@
 tutorial README
 ==================
 
+* tutorial URL
+https://docs.pylonsproject.org/projects/pyramid/en/latest/tutorials/wiki2/index.html
+* tutorial URL(ja)
+http://docs.pylonsproject.jp/projects/pyramid-doc-ja/en/latest/tutorials/wiki2/index.html
+
 Getting Started
 ---------------
 
