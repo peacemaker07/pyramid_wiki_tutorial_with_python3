@@ -43,7 +43,13 @@
           You can return to the
           <a href="{{ request.application_url }}">FrontPage</a>.<br/>
         </div>
-        <div id="right" class="app-welcome align-right"></div>
+        <div id="right" class="app-welcome align-right">
+            {% if logged_in %}
+            <span>
+               <a href="{{ request.application_url }}/logout">Logout</a>
+            </span>
+            {% endif %}
+        </div>
       </div>
     </div>
     <div id="bottom">
@@ -60,8 +66,7 @@
     </div>
   </div>
   <div id="footer">
-    <div class="footer"
-         >&copy; Copyright 2008-2011, Agendaless Consulting.</div>
+    <div class="footer">&copy; Copyright 2008-2011, Agendaless Consulting.</div>
   </div>
 </body>
 </html>
