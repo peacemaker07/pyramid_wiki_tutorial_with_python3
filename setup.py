@@ -18,6 +18,7 @@ requires = [
     'zope.sqlalchemy',
     'waitress',
     'docutils',
+    'WebTest',
     ]
 
 tests_require = [
